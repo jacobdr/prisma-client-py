@@ -11,7 +11,7 @@ ENV PATH="/home/prisma/.local/bin:${PATH}"
 
 COPY --chown=prisma:prisma . .
 
-RUN pip install .
+RUN pip install '.[node]'
 
 # This has the side-effect of downing the prisma binaries
 # and will fail if the CLI cannot get run
