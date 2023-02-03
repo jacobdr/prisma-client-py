@@ -5,5 +5,5 @@ mock==4.0.3
 pytest-mock==3.6.1
 pytest-asyncio==0.17.0
 pytest-subprocess==1.1.2
-syrupy==3.0.2
+syrupy==4.0.0
 fastapi==0.85.1
